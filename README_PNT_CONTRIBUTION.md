@@ -26,4 +26,4 @@ This bundle provides a set of pre-formalized Lean modules to fill the "Hadamard 
 - **ZetaBounds.lean**: Can use `GammaBounds` for explicit estimates.
 
 ## Provenance
-This code was authored by Jonathan Washburn (pre-October 2025) and is provided to the PNT+ project to accelerate the "Third Approach" (Hadamard factorization) milestone.
+This code is provided to the PNT+ project to accelerate the "Third Approach" (Hadamard factorization) milestone.

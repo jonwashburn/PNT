@@ -31,6 +31,7 @@ to make the Hadamard factorization bundle self-contained.
 namespace PrimeNumberTheoremAnd.Common
 
 open Complex Real BigOperators Nat
+open scoped Topology
 
 /-! ## From Compat.lean -/
 

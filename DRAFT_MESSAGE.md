@@ -10,15 +10,15 @@ These modules were authored by me in October 2025 as part of my independent rese
 
 1. **`WeierstrassProduct.lean`**:
    - Bridges between summable series and infinite products (e.g. `tprod_exp_of_summable`, `exp_tsum_eq_tprod`).
-   - Rewrites the 2‑modified Euler factor \((1-z)\exp(z+z^2/2)\) as a single exponential of a log remainder.
-   - Proves the cubic tail bound \(\|\log(1-z) + z + z^2/2\| \le \|z\|^3/(1-\|z\|)\) on \(\|z\|<1\).
+   - Rewrites the 2‑modified Euler factor `(1 - z) * exp(z + z^2/2)` as a single exponential of a log remainder.
+   - Proves the cubic tail bound `‖log(1 - z) + z + z^2/2‖ ≤ ‖z‖^3 / (1 - ‖z‖)` on `‖z‖ < 1`.
 
 2. **`Determinant.lean`**:
-   - Defines `det2_AF(s)` as the Euler product over primes with local factor \((1-\lambda)\exp(\lambda+\lambda^2/2)\) for \(\lambda=p^{-s}\).
-   - **Crucially:** Proves analyticity and non-vanishing on \(\Re(s) > 1/2\), including a critical-line specialization.
+   - Defines `det2_AF(s)` as the Euler product over primes with local factor `(1 - λ) * exp(λ + λ^2 / 2)` for `λ = p^(-s)`.
+   - **Crucially:** Proves analyticity and non-vanishing on `Re(s) > 1/2`, including a critical-line specialization.
 
 3. **`GammaBounds.lean`**:
-   - Provides `BoundedFGammaPrimeOnStrip`, a Prop-level interface for uniform bounds on the Archimedean factor \(\Gamma(s/2)\pi^{-s/2}\) on vertical strips, plus an explicit nonnegative constant constructor (Cauchy-route outline).
+   - Provides `BoundedFGammaPrimeOnStrip`, a Prop-level interface for uniform bounds on the Archimedean factor `Γ(s/2) * π^(-s/2)` on vertical strips, plus an explicit nonnegative constant constructor (Cauchy-route outline).
 
 ### How this fits PNT+
 

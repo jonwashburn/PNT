@@ -25,5 +25,9 @@ This bundle provides a set of pre-formalized Lean modules to fill the "Hadamard 
 - **HadamardFactorization.lean**: Can import `WeierstrassProduct` and `Determinant` directly.
 - **ZetaBounds.lean**: Can use `GammaBounds` for explicit estimates.
 
+## Documentation
+
+Included is `riemann-lean.tex`, the LaTeX source for the paper *A Function--Theoretic Route to the Riemann Hypothesis* (DOI: 10.5281/zenodo.17094131), which describes the mathematical framework implemented in these files.
+
 ## Provenance
 This code is provided to the PNT+ project to accelerate the "Third Approach" (Hadamard factorization) milestone.
